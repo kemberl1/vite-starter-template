@@ -2,11 +2,10 @@ import ReactDOM from 'react-dom/client'
 import { Offline, Online } from 'react-detect-offline'
 import React from 'react'
 
-import ErrorIndicator from './components/ErrorIndicator/ErrorIndicator'
-import App from './App'
 import './styles/main.scss'
-
-import ErrorMessages from './components/ErrorMessages/ErrorMessages'
+import ErrorIndicator from './components/Error/ErrorIndicator/ErrorIndicator'
+import ErrorMessages from './components/Error/ErrorMessages/ErrorMessages'
+import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
